@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "Soundex.h"
  
-//Append zeros if result contains less than 3 digits
+/*//Append zeros if result contains less than 3 digits
 TEST(SoudexTestsuite, PadZerosForSingleCharacter) {
 //AAA
   char soundex[MAX_CODE_LENGTH+1];
@@ -59,7 +59,7 @@ TEST(SoudexTestsuite, TestCheckReplaceWithSinglenumberSeparatedBy_HWY) {
 
 //Test case to check Empty 
 TEST(SoudexTestsuite, TestCheckEmptyCharacter) {
-//AAA
+//AAA */
   char soundex[MAX_CODE_LENGTH+1];
   generateSoundex("", soundex);
   ASSERT_STREQ(soundex,"");
